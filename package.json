@@ -1,0 +1,26 @@
+{
+  "name": "flexvalue",
+  "version": "0.0.1",
+  "description": "Flexvalue allow you to specify a sync or async value anyway you could possibly imagine. Great for making your public facing js apis more flexible.",
+  "main": "dist/flexValue.js",
+  "repository": "https://github.com/jaketodaro/flexvalue.git",
+  "author": "jaketodaro",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "pretty": "prettier --no-config --write ./src/**/*.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.0.1",
+    "jest": "^23.1.0",
+    "prettier": "^1.13.5"
+  }
+}
