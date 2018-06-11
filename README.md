@@ -26,7 +26,7 @@ function sum() {
   return Array.from(arguments).reduce((sum, x) => sum + x, 0);
 }
 
-const sumValuesToAsyncValue = flexifyArgs(sum, flexValue, flexValueAsync);
+const sumValuesToAsyncValue = flexifyArgs(sum, flexValueAsync, flexValue);
 
 sumAsyncValuesToSyncValue(Promise.resolve(1), 2, 3, 4) // 10
 ```
